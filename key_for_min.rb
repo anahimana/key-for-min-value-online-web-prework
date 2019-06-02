@@ -6,12 +6,12 @@ def key_for_min_value(name_hash)
   my_value = 0
   name_hash.each do |key, value|
     my_value = value
-    puts my_value
     if my_value < value
       my_key = key
       puts "Hello!"
     end
   end
+  puts my_value
   my_key
 end
 

@@ -10,7 +10,6 @@ def key_for_min_value(name_hash)
       puts "Hello!"
     end
   end
-  puts my_value
   my_key
 end
 

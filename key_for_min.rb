@@ -5,6 +5,7 @@ def key_for_min_value(name_hash)
   my_key = nil
   my_value = nil
   name_hash.each do |key, value|
+    puts my_value == nil || my_value > value
     if my_value == nil || my_value > value
       my_value = value
       my_key = key
